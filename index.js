@@ -27,6 +27,7 @@ var TextareaAutosize = React.createClass({
       this.getDiffSize();
       this.dirty = false;
     }
+    this.recalculateSize();
   },
 
   onChange: function(e) {
